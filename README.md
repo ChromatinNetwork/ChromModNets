@@ -1,5 +1,6 @@
 # ChromModNets
-Infer chromatin state-specific co-location networks from a set of ChIP-Seq or similar experiments.
+Infer chromatin state-specific co-location networks from a set of ChIP-Seq or similar experiments. Detailed description of the method is available at Perner et al (http://nar.oxfordjournals.org/content/42/22/13689) and the implementation for chromatin segments is described at Juan et al (http://biorxiv.org/content/early/2015/08/05/008821). BAM files with the alignments are available at http://epistemnet.bioinfo.cnio.es/bam_files
+
 ## Usage:
 Rscript main.R data/bamfilelist.txt
 ## Main.R
